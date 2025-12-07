@@ -1,0 +1,6 @@
+[template]
+# 排除以下文件，不进行变量替换
+exclude = [
+    ".DS_Store",           # 二进制文件，无需替换
+    "cliff.toml",          # 可能包含与 Tera 模板冲突的语法
+]
